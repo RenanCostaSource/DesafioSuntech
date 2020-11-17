@@ -1,0 +1,242 @@
+[
+    {
+        "meta": {
+            "client_id": "institution_id",
+            "your_number": "123456",
+            "dlt_id": "ethereum",
+            "doc_type": "academic_doc_mec_degree",
+            "mime_type": "text/xml",
+            "group_id": "1",
+            "client_signature": ""
+        },
+        "data": {
+            "Versao": "1.00",
+            "CodigoDocumentacao":"ReqDip1111111111111111111111111111111111111111111111",
+            "RegistroReq": {
+                "DadosDiploma": {
+                    "Diplomado": {
+                        "ID": "9999999",
+                        "Nome": "Jose Fernandes",
+                        "Sexo": "M",
+                        "Nacionalidade": "Brasil",
+                        "Naturalidade": {
+                            "CodigoMunicipio": "2408102",
+                            "NomeMunicipio": "Natal",
+                            "UF": "RN"
+                        },
+                        "CPF": "11122233344",
+                        "RG": {
+                            "Numero": "2222222",
+                            "UF": "RN"
+                        },
+                        "DataNascimento": "2019-10-10"
+                    },
+                    "DadosCurso": {
+                        "NomeCurso": "Direito",
+                        "CodigoCursoEMEC": "111111",
+                        "NomeHabilitacao": "Bacharelado em Direito",
+                        "Modalidade": "Presencial",
+                        "TituloConferido": "Bacharel",
+                        "GrauConferido": "Bacharelado",
+                        "EnderecoCurso": {
+                            "Logradouro": "Rua Sicrano de Tal",
+                            "Numero": "10",
+                            "Complemento": "Campus Universitário",
+                            "Bairro": "Bairro",
+                            "CodigoMunicipio": "2408102",
+                            "NomeMunicipio": "Natal",
+                            "UF": "RN",
+                            "CEP": "59075000"
+                        },
+                        "Polo": {
+                            "Nome": "PoloX",
+                            "Endereco": {
+                                "Logradouro": "Rua Sicrano de Tal",
+                                "Numero": "10",
+                                "Complemento": "Campus Universitário",
+                                "Bairro": "Bairro",
+                                "CodigoMunicipio": "2408102",
+                                "NomeMunicipio": "Natal",
+                                "UF": "RN",
+                                "CEP": "59075000"
+                            },
+                            "CodigoEMEC": "123"
+                        },
+                        "Autorizacao": {
+                            "Tipo": "Decreto",
+                            "Numero": "12345",
+                            "Data": "2019-10-10",
+                            "VeiculoPublicacao": "DOU",
+                            "DataPublicacao": "2019-10-10",
+                            "SecaoPublicacao": "2",
+                            "PaginaPublicacao": "3"
+                        },
+                        "Reconhecimento": {
+                            "Tipo": "Decreto",
+                            "Numero": "12345",
+                            "Data": "2019-10-10",
+                            "VeiculoPublicacao": "DOU",
+                            "DataPublicacao": "2019-10-10",
+                            "SecaoPublicacao": "4",
+                            "PaginaPublicacao": "5"
+                        },
+                        "RenovacaoReconhecimento": {
+                            "Tipo": "Decreto",
+                            "Numero": "12345",
+                            "Data": "2019-10-10",
+                            "VeiculoPublicacao": "DOU",
+                            "DataPublicacao": "2019-10-10",
+                            "SecaoPublicacao": "6",
+                            "PaginaPublicacao": "7"
+                        }
+                    },
+                    "IesEmissora": {
+                        "Nome": "UNIVERSIDADE FEDERAL XPTO",
+                        "CodigoMEC": "123",
+                        "CNPJ": "12345678912345",
+                        "Endereco": {
+                            "Logradouro": "Campus Universitário",
+                            "Numero": "s/n",
+                            "Complemento": "Bloco A",
+                            "Bairro": "Bairro",
+                            "CodigoMunicipio": "2408102",
+                            "NomeMunicipio": "Natal",
+                            "UF": "RN",
+                            "CEP": "59075000"
+                        },
+                        "Credenciamento": {
+                            "Tipo": "Lei Federal",
+                            "Numero": "1234",
+                            "Data": "2019-10-10",
+                            "VeiculoPublicacao": "DOU",
+                            "DataPublicacao": "2019-10-10",
+                            "SecaoPublicacao": "1",
+                            "PaginaPublicacao": "12345"
+                        },
+                        "Recredenciamento": {
+                            "Tipo": "Portaria",
+                            "Numero": "123",
+                            "Data": "2019-10-10",
+                            "VeiculoPublicacao": "DOU",
+                            "DataPublicacao": "2019-10-10",
+                            "SecaoPublicacao": "1",
+                            "PaginaPublicacao": "12"
+                        },
+                        "RenovacaoDeRecredenciamento": {
+                            "Tipo": "Portaria",
+                            "Numero": "123",
+                            "Data": "2019-10-10",
+                            "VeiculoPublicacao": "DOU",
+                            "DataPublicacao": "2019-10-10",
+                            "SecaoPublicacao": "1",
+                            "PaginaPublicacao": "12"
+                        },
+                        "Mantenedora": {
+                            "RazaoSocial": "UNIVERSIDADE FEDERAL XPTO",
+                            "CNPJ": "12345678912345",
+                            "Endereco": {
+                                "Logradouro": "Campus Universitário",
+                                "Numero": "s/n",
+                                "Complemento": "Bloco A",
+                                "Bairro": "Bairro",
+                                "CodigoMunicipio": "2408102",
+                                "NomeMunicipio": "Natal",
+                                "UF": "RN",
+                                "CEP": "59075000"
+                            }
+                        }
+                    }
+                },
+                "DadosPrivadosDiplomado": {
+                    "Filiacao": [
+                        {
+                            "Genitor": {
+                                "Nome": "Nome do Pai",
+                                "NomeSocial": "Nome Social",
+                                "Sexo": "M"
+                            }
+                        },
+                        {
+                            "Genitor": {
+                                "Nome": "Nome da Mãe",
+                                "NomeSocial": "Nome Social",
+                                "Sexo": "F"
+                            }
+                        }
+                    ],
+                    "HistoricoEscolar": {
+                        "MatrizCurricular": {
+                            "DisciplinaCursada": [
+                                {
+                                    "Disciplina": "DisciplinaA",
+                                    "Periodo": "20192",
+                                    "Nota": "8.25",
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "Docente A",
+                                                "Titulacao": "Doutorado"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Disciplina": "DisciplinaB",
+                                    "Periodo": "20191",
+                                    "Conceito": "A+",
+                                    "Docentes": [
+                                        {
+                                            "Docente": {
+                                                "Nome": "Docente B",
+                                                "Titulacao": "Mestrado"
+                                            }
+                                        },
+                                        {
+                                            "Docente": {
+                                                "Nome": "Docente C",
+                                                "Titulacao": "Especialização"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "DataEmissaoHistorico": "2019-10-10",
+                        "SituacaoAluno": "Aprovado",
+                        "SituacaoENADE": "Concluinte / Participante",
+                        "DataProvaEnade": "2019-10-10",
+                        "CargaHorariaCursoIntegralizada": "33"
+                    },
+                    "CargaHorariaCurso": "33",
+                    "IngressoCurso": {
+                        "Data": "2019-10-10",
+                        "FormaAcesso": "Enem",
+                        "DataConclusao": "2019-10-10"
+                    }
+                },
+                "TermoResponsabilidade": {
+                    "Nome": "Fulano de Tal",
+                    "CPF": "12345678912",
+                    "Cargo": "Cargo",
+                    "AtoDesignacao": "ZG9jdW1lbnRv"
+                },
+                "DocumentacaoComprobatoria": [
+                    {
+                        "Documento": {
+                            "Tipo": "TermoResponsabilidade",
+                            "Observacoes": "Observacoes opcionais",
+                            "Dados": "VGVybW9SZXNwb25zYWJpbGlkYWRl"
+                        }
+                    },
+                    {
+                        "Documento": {
+                            "Tipo": "DocumentoIdentidadeDoAluno",
+                            "Observacoes": "Observacoes opcionais",
+                            "Dados": "RG9jdW1lbnRvSWRlbnRpZGFkZURvQWx1bm8="
+                        }
+                    }
+                ]
+            }
+        }
+    }
+]

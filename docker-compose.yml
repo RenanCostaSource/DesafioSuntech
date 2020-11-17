@@ -1,0 +1,53 @@
+version: "3"
+services:
+  postgres:
+    image: postgres:latest
+    network_mode: bridge
+    container_name: postgres
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    expose:
+    - 5432
+    ports:
+      - 5432:5432
+    environment:
+         - POSTGRES_PASSWORD=postgres
+         - POSTGRES_USER=postgres
+         - POSTGRES_DB=residenciadb
+         
+    restart: unless-stopped
+# FRONT***************************************
+  reactapp:
+    build: ./front
+    image: reactapp:latest
+    network_mode: bridge
+    container_name: reactapp
+    expose:
+      - 80
+    ports:
+      - 80:80
+    volumes:
+      - \volume
+    restart: unless-stopped
+# APP*****************************************
+  springbootapp:
+    build: ./api
+    image: springbootapp:latest
+    network_mode: bridge
+    container_name: springbootapp
+    expose:
+      - 8080
+    ports:
+      - 8080:8080
+    environment:
+      - SPRING_DATASOURCE_URL= jdbc:postgresql://postgres:5432/residenciadb
+      - PASTA_CRL=/app/public/
+    volumes:
+    - \volume
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    links:
+      - postgres
+volumes:
+  postgres-data:
